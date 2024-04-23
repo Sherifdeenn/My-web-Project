@@ -1,0 +1,329 @@
+*{  margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #d7eceb; 
+    margin:0;
+    padding:0;
+    
+}
+.nav{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0; 
+    backdrop-filter: blur(5px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+    z-index: 9999;
+}
+
+.nav ul{
+list-style-type: none;
+display: flex;
+text-decoration: none;
+font-size: 1.5em;
+}
+
+.nav ul ol a{
+    display: inline-block;
+    margin: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:5px;
+    text-decoration: none;
+    
+    
+    }
+
+.logo{
+    display: inline-block;
+    color:white;    
+}
+.logo span{
+    color:rgb(0, 225, 21);
+}
+
+.nav ul a{
+    color:white;
+}
+.nav ol a:hover{
+    text-decoration: underline;
+    color:rgb(0, 225, 21);
+    transform: all 0.3s ease;
+    
+}
+.logo img{
+    height:12vh;
+    margin-left: 40px;
+    position:center;
+   
+}
+.welcome{
+    background: url(Eliph2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    animation: slide 20s infinite;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+
+}
+
+.welcome h1{
+    font-size: 2.3em;
+    color:white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes slide{
+    
+25%{
+            background: url(ent.jpg);
+            background-repeat: repeat;
+            size: cover;
+           
+        }
+    
+50%{
+        background: url(wild1.jpg);
+        background-repeat: repeat;
+        size: cover;
+       
+    }
+
+75%{
+    background: url(deer.jpg);
+    background-repeat: repeat;
+    size: cover;
+   
+}
+
+100%{
+    background: url(mu2.webp);
+    background-repeat: repeat;
+    size: cover;
+   
+}
+}
+
+.history{
+    margin: 30px;
+    width: 100%;
+    background: #d7eceb;
+}
+.history h1{
+    margin-left: 50px;
+ 
+}
+.history img{
+    height: 50vh;
+    width: 60vh;
+}
+
+.hist2{
+    font-size: 1.3em;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 30px 0 30px 0;
+    padding: 10px;
+    margin: 100px 0  30px 30px;    
+
+}
+.content h1{
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+    margin: left 50%;
+}
+
+.content h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 10px 0 10px 0;
+}
+.content{
+    display: inline-block;
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: left;
+    
+}
+.content .con1 p{
+
+    font-size: 2em;
+}
+.content img{
+    width: 400px;
+    height: 310px;
+    margin: 10px;
+    box-shadow: 20px 0 20px rgba(0,0,0,0.35);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+}
+.content img:hover{
+    transform: scale(1.1);    
+    z-index: 1;
+   
+}
+
+
+
+.wel{
+
+    border:2px solid black;
+    border-radius: 30px 0 30px 0;
+    padding: 20px;
+    margin: 3%; 
+    width: 85%;
+}
+
+.wel img{
+    height: 45vh;
+    width: 55vh;
+    padding: 8px;
+}
+.wel p{
+    font-size: 1.4em;
+
+}
+
+.content_map h1{
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+    margin: left 50%;
+}
+
+.content_map{
+    display: inline-block;
+    overflow: hidden;
+}
+.content_map img{
+    width: 50vh;
+    margin: 10px;
+    box-shadow: 20px 0 20px rgba(0,0,0,0.35);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+}
+
+.content_map img:hover{
+    transform: scale(1.1);    
+    z-index: 1;
+   
+}
+
+
+.mapp1{
+display: flex;
+margin:40px;;
+ 
+}
+
+.con1{
+    border:2px solid black;
+    border-radius: 30px 0 30px 0;
+    padding: 15px;
+    margin: 2%; 
+    width: 60%;
+
+}
+
+
+.mapp1 img{
+    padding: 35px;
+}
+
+
+
+
+
+.about_bird img{
+    margin-top: 100px;
+    margin-left: 20px;
+    height: 80vh;
+    width: 60vh;
+
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+footer{
+    background: rgb(46, 38, 42);
+    width: 100%;
+    border-top: 7px solid rgb(0, 255, 21);
+    border-radius: 40px 40px 0 0;
+    padding-bottom: 20px;
+
+}
+
+footer .box{
+    margin: auto;
+    border-bottom: 2px solid rgb(0, 255, 21);
+    width: 100%;
+    display: flex;
+    font-size: 1.2em;
+    padding: auto;
+}
+
+.bo1{
+    width: 30%;
+    color: white;
+    justify-content: center;
+    padding:20px;
+    margin: 15px;
+    margin-left: 10vh;
+}
+.bo1 h2{
+    color:rgb(0, 255, 21);
+    text-decoration: underline;
+}
+.bo2{
+    height: 35vh;
+    width: 30%;
+    color: white;
+    margin: 15px;
+    padding:20px; 
+    margin-left:20px;
+
+}
+.bo2 h2{
+    color:rgb(0, 255, 21);
+    text-decoration: underline;
+}
+.bo3{
+    padding:20px;
+    margin: 15px;
+    color:white;
+    height: 35vh;
+    width: 30%;
+
+}
+.bo3 h2{
+    color:rgb(0, 255, 21);
+    text-decoration: underline;
+}
+ .conc{
+    color: white;
+    letter-spacing: 3px;
+    margin:5vh;
+    text-align: center;
+ }
